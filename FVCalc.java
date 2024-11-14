@@ -5,6 +5,6 @@ public class FVCalc {
 		double rate = Double.parseDouble(args[1]);
 		int n = Integer.parseInt(args[2]);
 		double newValue = (currentValue) * Math.pow(1 + (rate/100), n);
-		System.out.println("after " + n + " years " + (int)currentValue + " in a rate of " + rate + " will be " + (int)newValue);
+		System.out.println("after " + n + " years, $" + (int)currentValue + " saved at " + rate + "%25 will yeild $" + (int)newValue);
 	}
 }
