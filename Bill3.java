@@ -8,7 +8,6 @@ public class Bill3 {
 		Double price = Double.parseDouble(args[3]);
 		Double splitPrice = price / 3;
 		splitPrice = Math.ceil(splitPrice);
-		System.out.println("Dear " + name1  + ","+ name2 + " and " + name3 + " pay " + splitPrice + "shekels each");
-	    // Replace this comment with the rest of your code   
+		System.out.println("Dear " + name3  + ","+ name2 + " and " + name1 + " pay " + splitPrice + "shekels each");
 	}
 }
